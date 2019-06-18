@@ -1,0 +1,7 @@
+{
+    "name": "@root/common",
+    "version": "1.0.0",
+    "license": "ISC",
+    "main": "lib/index.js",
+    "typings": "lib/index.d.ts"
+}

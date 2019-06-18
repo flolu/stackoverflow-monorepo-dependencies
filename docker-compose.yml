@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  server:
+    build: ./packages/server
+    volumes:
+      - ./packages/server:/src
+      - ./node_modules:/node_modules
