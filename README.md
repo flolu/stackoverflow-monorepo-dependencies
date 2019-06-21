@@ -1,3 +1,10 @@
+## Setup
+```
+yarn bootstrap
+yarn build
+```
+
+## Issue
 When running the server via `node packages/server` or `node packages/server/lib/index.js` everything works fine.
 But running `docker-compose up --build` will result in the following error:
 
@@ -40,5 +47,5 @@ server_1  |     at Function.Module.runMain (internal/modules/cjs/loader.js:837:1
 server_1  |   code: 'MODULE_NOT_FOUND',
 server_1  |   requireStack: [ '/src/lib/index.js' ]
 server_1  | }
-stackoverflow-monorepo-dependecies_server_1 exited with code 1
+stackoverflow-monorepo-dependecies_server_1 exited with code 1Please note, that you need to run `yarn bootstrap` and `yarn build` before starting
 ```
