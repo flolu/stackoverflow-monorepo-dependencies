@@ -3,6 +3,8 @@
 yarn bootstrap
 yarn build
 ```
+# Can you add docker commands to run this monorepo ?
+
 
 ## Issue
 When running the server via `node packages/server` or `node packages/server/lib/index.js` everything works fine.
